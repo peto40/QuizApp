@@ -21,8 +21,6 @@ class MainActivity : AppCompatActivity() {
                 intent.putExtra(Constants.USER_NAME, binding.nameEdt.text.toString())
                 startActivity(intent)
 
-
-                Log.d("hi","hello world!")
             }
 
         }
